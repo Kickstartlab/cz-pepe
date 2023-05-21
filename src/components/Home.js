@@ -154,10 +154,6 @@ export default function Home() {
                             In store for you!
                         </p>
 
-                        <p className='text-white-200 mt-6'>
-                            Jorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-
                     </div>
 
                 </div>
@@ -214,67 +210,14 @@ export default function Home() {
             <div id='tokenomics' className="lg:px-20 px-5 pt-8">
                 <div className='container mx-auto'>
 
-                    <h2 data-aos="fade-up" className='md:text-5xl text-2xl font-opensans font-bold text-center'>
+                    <h2 data-aos="fade-up" className='md:text-5xl text-2xl font-opensans font-bold text-center lg:mb-6'>
                         TOKENOMICS
                     </h2>
 
-                    <div className="lg:flex block justify-center items-center gap-x-24 py-8 space-y-8">
+                    <div className="py-12 space-y-8 flex items-center justify-center">
 
-                        <div data-aos="zoom-in" className="lg:w-1/2">
-                            <img src={token} alt="Logo" className='w-9/12 lg:float-right flex mx-auto' />
-                        </div>
-
-                        <div data-aos="slide-left" className="lg:w-1/2 w-full lg:space-y-8 space-y-4">
-
-                            <div className='flex items-center gap-x-8'>
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.805664" y="0.382812" width="41.92" height="41.92" fill="#693AEE" />
-                                </svg>
-
-                                <p className='lg:text-2xl text-lg text-inter font-medium'>
-                                    Product Development
-                                </p>
-                            </div>
-
-                            <div className='flex items-center gap-x-8'>
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.805664" y="0.382812" width="41.92" height="41.92" fill="#F8B654" />
-                                </svg>
-
-                                <p className='lg:text-2xl text-lg text-inter font-medium'>
-                                    Marketing
-                                </p>
-                            </div>
-
-                            <div className='flex items-center gap-x-8'>
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.805664" y="0.382812" width="41.92" height="41.92" fill="#D842A5" />
-                                </svg>
-
-                                <p className='lg:text-2xl text-lg text-inter font-medium'>
-                                    Business Development
-                                </p>
-                            </div>
-
-                            <div className='flex items-center gap-x-8'>
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.805664" y="0.382812" width="41.92" height="41.92" fill="#4ECFA9" />
-                                </svg>
-
-                                <p className='lg:text-2xl text-lg text-inter'>
-                                    Legal & Regulation
-                                </p>
-                            </div>
-
-                            <div className='flex items-center gap-x-8'>
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.805664" y="0.382812" width="41.92" height="41.92" fill="#CD4242" />
-                                </svg>
-
-                                <p className='lg:text-2xl text-lg text-inter'>
-                                    Operational
-                                </p>
-                            </div>
+                        <div data-aos="zoom-in" className="lg:w-96 w-72 lg:h-96 h-72 rounded-full bg-blue-100">
+                            <p className='text-2xl font-semibold text-white-100 text-center lg:translate-y-44 translate-y-32'>100% Liquidity</p>
                         </div>
 
                     </div>
@@ -307,7 +250,7 @@ export default function Home() {
                                 Ride the wave of excitement on the Binance Smart Chain
                             </p>
 
-                            <a href="/">
+                            <a href="#about">
                                 <button className="bg-yellow-100 rounded-full font-medium border-2 border-yellow-100 hover:bg-white-100 hover:text-black-100 py-3 md:px-8 px-5">
                                     About us
                                 </button>
@@ -347,7 +290,7 @@ export default function Home() {
 
             </div>
 
-            <Footer />
+            <Footer/>
         </div>
     )
 }

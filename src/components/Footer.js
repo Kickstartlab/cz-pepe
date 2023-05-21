@@ -6,7 +6,7 @@ import telegram from '../assets/telegram.png';
 
 export default function Footer() {
   return (
-    <div className="font-inter py-5">
+    <div id='contact' className="font-inter py-5">
       <footer data-aos="zoom-in" className='container mx-auto lg:px-20 font-inter px-5'>
 
         <div className="flex flex-col items-center justify-center gap-y-8 mx-auto">
@@ -31,7 +31,7 @@ export default function Footer() {
 
           <div className='flex justify-center gap-6 items-center lg:mt-0 mt-5'>
 
-            <a href='/'>
+            <a href='https://twitter.com/changpepezhaoge'>
               <img src={twitter} alt="Twitter" className='' />
             </a>
 

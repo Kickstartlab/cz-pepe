@@ -21,7 +21,7 @@ export default function Menu() {
             <li><a href="/" className="font-semibold tracking-wide">Home</a></li>
             <li><a href="#about" className="font-semibold tracking-wide">About</a></li>
             <li><a href="#tokenomics" className="font-semibold tracking-wide">Tokenomics</a></li>
-            <li><a href="#play" className="font-semibold tracking-wide">Contact</a></li>
+            <li><a href="#contact" className="font-semibold tracking-wide">Contact</a></li>
           </ul>
         </nav>
 
