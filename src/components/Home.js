@@ -19,7 +19,6 @@ export default function Home() {
             duration: 2500,
             once: false,
             easing: 'ease',
-            // delay: 350
         });
         Aos.refresh();
     }, [])
