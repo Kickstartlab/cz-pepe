@@ -16,9 +16,9 @@ export default function Footer() {
           </h2>
 
           <div className="py-1 pl-6 pr-1 lg:w-6/12 w-full lg:bg-yellow-100 lg:space-y-0 space-y-5 lg:flex items-center justify-between rounded-full">
-            <input type="email" placeholder="Enter your email" id="email" required="" className="lg:p-0 p-5 lg:rounded-none rounded-full bg-yellow-100 focus:ring-0 focus:outline-none lg:w-7/12 w-full" />
+            <input type="email" placeholder="Enter your email" id="email" required="" className="lg:p-0 p-5 lg:rounded-none rounded-full bg-yellow-100 focus:ring-0 focus:outline-none lg:w-7/12 w-full placeholder-black-50" />
 
-            <button className='lg:px-12 px-2 lg:py-3 py-2 bg-gradient rounded-full text-white-100 uppercase font-semibold'>
+            <button className='lg:px-12 px-5 lg:py-3 py-2 bg-gradient rounded-full text-white-100 uppercase font-semibold'>
               Subcribe
             </button>
           </div>
@@ -29,7 +29,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className='flex justify-center gap-6 items-center lg:mt-0 mt-6'>
+          <div className='flex justify-center gap-6 items-center lg:mt-0 mt-5'>
 
             <a href='https://twitter.com/Decprotocol'>
               <img src={twitter} alt="Twitter" className='' />
@@ -43,7 +43,7 @@ export default function Footer() {
 
         </div>
 
-        <p className='pt-12 pb-6 text-center'>© {new Date().getFullYear()} All rights reserved by CZ PEPE.</p>
+        <p className='pt-8 pb-6 text-center'>© {new Date().getFullYear()} All rights reserved by CZ PEPE.</p>
       </footer>
     </div>
 

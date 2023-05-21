@@ -146,15 +146,15 @@ export default function Home() {
 
             <div id='updates' className="">
 
-                <div className="lg:pb-20 py-5 lg:px-20 px-5 container mx-auto">
+                <div className="lg:pb-20 py-5 lg:px-20 px-5 container mx-auto space-y-8">
 
-                    <div data-aos="zoom-in" data-aos-delay="350" className='flex items-center gap-x-8 justify-center'>
+                    <div data-aos="zoom-in" data-aos-delay="350" className='lg:flex items-center gap-x-8 justify-center'>
 
-                        <div className=''>
+                        <div className='lg:block hidden'>
                             <img src={bot} alt="Logo" className='' />
                         </div>
 
-                        <div className='space-y-8 lg:w-8/12'>
+                        <div className='space-y-6 lg:w-8/12'>
                             <h2 className='md:text-5xl text-2xl font-opensans font-bold'>
                                 CZPEPE NFT BOT
                             </h2>
@@ -166,9 +166,9 @@ export default function Home() {
 
                     </div>
 
-                    <div data-aos="zoom-in" data-aos-delay="350" className='flex items-center gap-x-8 justify-center'>
+                    <div data-aos="zoom-in" data-aos-delay="350" className='lg:flex items-center gap-x-8 justify-center'>
 
-                        <div className='space-y-8 lg:w-8/12 lg:text-right'>
+                        <div className='space-y-6 lg:w-8/12 lg:text-right'>
                             <h2 className='md:text-5xl text-2xl font-opensans font-bold'>
                                 BUSD REWARDS
                             </h2>
@@ -178,7 +178,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className=''>
+                        <div className='lg:block hidden'>
                             <img src={reward} alt="Logo" className='' />
                         </div>
                     </div>
@@ -189,20 +189,20 @@ export default function Home() {
 
             {/* TOKENOMICS */}
 
-            <div id='tokenomics' className="lg:px-20 px-5">
+            <div id='tokenomics' className="lg:px-20 px-5 pt-8">
                 <div className='container mx-auto'>
 
                     <h2 className='md:text-5xl text-2xl font-opensans font-bold text-center'>
                         TOKENOMICS
                     </h2>
 
-                    <div className="lg:flex block justify-center items-center gap-x-24 py-12">
+                    <div className="lg:flex block justify-center items-center gap-x-24 py-8 space-y-8">
 
                         <div data-aos="zoom-in" data-aos-delay="350" className="lg:w-1/2">
-                            <img src={token} alt="Logo" className='w-9/12 lg:float-right' />
+                            <img src={token} alt="Logo" className='w-9/12 lg:float-right flex mx-auto' />
                         </div>
 
-                        <div data-aos="slide-left" className="lg:w-1/2 w-full space-y-8">
+                        <div data-aos="slide-left" className="lg:w-1/2 w-full lg:space-y-8 space-y-4">
 
                             <div className='flex items-center gap-x-8'>
                                 <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -272,7 +272,7 @@ export default function Home() {
                             <img src={pepe} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto' />
                         </div>
 
-                        <div data-aos="slide-left" className="lg:w-1/2 w-full md:mt-0 mt-12">
+                        <div data-aos="slide-left" className="lg:w-1/2 w-full">
 
                             <h2 className='md:text-5xl text-3xl font-opensans font-bold'>
                                 Our Motive
@@ -283,7 +283,7 @@ export default function Home() {
                             </p>
 
                             <a href="/">
-                                <button className="bg-yellow-100 rounded-full font-medium border-2 border-yellow-100 hover:bg-white-100 hover:text-black-100 py-3 md:px-8 px-3">
+                                <button className="bg-yellow-100 rounded-full font-medium border-2 border-yellow-100 hover:bg-white-100 hover:text-black-100 py-3 md:px-8 px-5">
                                     About us
                                 </button>
                             </a>
@@ -298,7 +298,7 @@ export default function Home() {
 
             <div id='faq' className="">
 
-                <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
+                <div className="lg:pb-20 py-5 lg:px-20 px-5 container mx-auto">
 
                     <div data-aos="fade-up" data-aos-delay="350" className='lg:w-8/12 text-center flex flex-col mx-auto'>
 
