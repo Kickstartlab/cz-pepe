@@ -16,10 +16,10 @@ export default function Home() {
 
     useEffect(() => {
         Aos.init({
-            duration: 3000,
+            duration: 2500,
             once: false,
             easing: 'ease',
-            delay: 350
+            // delay: 350
         });
         Aos.refresh();
     }, [])
@@ -57,7 +57,7 @@ export default function Home() {
 
                     <Menu />
                     <div className="lg:flex block justify-between items-center gap-x-12 pt-12">
-                        <div data-aos="fade-right" data-aos-delay="350" className="lg:w-1/2 w-full">
+                        <div data-aos="fade-right" className="lg:w-1/2 w-full">
                             <h2 className='md:text-5xl text-3xl font-opensans font-bold text-white-100'>
                                 Norem ipsum dolor sit amet, consectetur adipiscing elit.
                             </h2>
@@ -82,7 +82,7 @@ export default function Home() {
 
                         </div>
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="img">
+                        <div data-aos="flip-left" className="img">
                             <img src={top} alt="Logo" className='lg:w-10/12 translate-y-12 lg:float-right' />
                         </div>
                     </div>
@@ -98,8 +98,8 @@ export default function Home() {
                     <div className="lg:flex block justify-between items-center gap-x-12 py-12">
 
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="lg:w-1/3">
-                            <img src={about} alt="Logo" className='lg:float-right sm:flex mx-auto' />
+                        <div data-aos="zoom-in" className="lg:w-1/3">
+                            <img src={about} alt="Logo" className='lg:float-right sm:flex mx-auto rotate' />
                         </div>
 
                         <div data-aos="fade-left" className="w-full md:mt-0 mt-12">
@@ -125,7 +125,7 @@ export default function Home() {
 
                 <div className="lg:pb-20 py-5 lg:px-20 px-5 container mx-auto">
 
-                    <div data-aos="fade-up" data-aos-delay="350" className='lg:w-10/12 text-center flex flex-col mx-auto'>
+                    <div data-aos="fade-up" className='lg:w-10/12 text-center flex flex-col mx-auto'>
 
                         <p data-aos="slide-up" className='md:text-5xl text-2xl font-opensans text-center font-bold lg:w-1/2 flex mx-auto'>
                             See The Utilities we have
@@ -148,13 +148,13 @@ export default function Home() {
 
                 <div className="lg:pb-20 py-5 lg:px-20 px-5 container mx-auto space-y-8">
 
-                    <div data-aos="zoom-in" data-aos-delay="350" className='lg:flex items-center gap-x-8 justify-center'>
+                    <div className='lg:flex items-center gap-x-8 justify-center'>
 
-                        <div className='lg:block hidden'>
+                        <div data-aos="fade-right" className='lg:block hidden'>
                             <img src={bot} alt="Logo" className='' />
                         </div>
 
-                        <div className='space-y-6 lg:w-8/12'>
+                        <div data-aos="fade-left" className='space-y-6 lg:w-8/12'>
                             <h2 className='md:text-5xl text-2xl font-opensans font-bold'>
                                 CZPEPE NFT BOT
                             </h2>
@@ -166,9 +166,9 @@ export default function Home() {
 
                     </div>
 
-                    <div data-aos="zoom-in" data-aos-delay="350" className='lg:flex items-center gap-x-8 justify-center'>
+                    <div className='lg:flex items-center gap-x-8 justify-center'>
 
-                        <div className='space-y-6 lg:w-8/12 lg:text-right'>
+                        <div data-aos="fade-right" className='space-y-6 lg:w-8/12 lg:text-right'>
                             <h2 className='md:text-5xl text-2xl font-opensans font-bold'>
                                 BUSD REWARDS
                             </h2>
@@ -178,7 +178,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className='lg:block hidden'>
+                        <div data-aos="fade-left" className='lg:block hidden'>
                             <img src={reward} alt="Logo" className='' />
                         </div>
                     </div>
@@ -192,13 +192,13 @@ export default function Home() {
             <div id='tokenomics' className="lg:px-20 px-5 pt-8">
                 <div className='container mx-auto'>
 
-                    <h2 className='md:text-5xl text-2xl font-opensans font-bold text-center'>
+                    <h2 data-aos="fade-up" className='md:text-5xl text-2xl font-opensans font-bold text-center'>
                         TOKENOMICS
                     </h2>
 
                     <div className="lg:flex block justify-center items-center gap-x-24 py-8 space-y-8">
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="lg:w-1/2">
+                        <div data-aos="zoom-in" className="lg:w-1/2">
                             <img src={token} alt="Logo" className='w-9/12 lg:float-right flex mx-auto' />
                         </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
                     <div className="lg:flex block justify-center items-center gap-x-24 py-12">
 
 
-                        <div data-aos="fade-up" data-aos-delay="350" className="img">
+                        <div data-aos="fade-up" className="img">
                             <img src={pepe} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto' />
                         </div>
 
@@ -300,7 +300,7 @@ export default function Home() {
 
                 <div className="lg:pb-20 py-5 lg:px-20 px-5 container mx-auto">
 
-                    <div data-aos="fade-up" data-aos-delay="350" className='lg:w-8/12 text-center flex flex-col mx-auto'>
+                    <div data-aos="fade-up" className='lg:w-8/12 text-center flex flex-col mx-auto'>
 
                         <h3 className='text-xl tracking-widest font-opensans font-semibold text-yellow-100 uppercase mb-6'>
                             Questions
@@ -310,7 +310,7 @@ export default function Home() {
                             FAq
                         </h2>
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="accordion space-y-5 py-12">
+                        <div data-aos="zoom-in" className="accordion space-y-5 py-12">
                             {accordionData.map(({ numbers, title, content }) => (
                                 <Accordion title={title} content={content} numbers={numbers} />
                             ))}
