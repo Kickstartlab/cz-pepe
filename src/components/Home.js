@@ -5,7 +5,6 @@ import pepe from '../assets/pepe.png';
 import bot from '../assets/bot.png';
 import reward from '../assets/reward.png';
 import about from '../assets/about.png';
-import token from '../assets/token.png';
 import top from '../assets/top.png';
 import Accordion from './Accordion';
 import Aos from 'aos';
