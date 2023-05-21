@@ -26,23 +26,38 @@ export default function Home() {
     const accordionData = [
         {
             numbers: '01',
-            title: 'What are the NFTs?',
-            content: `As a creative agency we work with you to develop solutions to address your brand needs. That includes various aspects of brand planning and strategy, marketing and design.`
+            title: 'What is ChangPEPE Zhaoge?',
+            content: `A: ChangPEPE Zhaoge is a meme coin launched on the Binance Smart Chain (BSC) that combines the influence of CZ Binance and the PEPE hype. It aims to provide a thrilling crypto experience and rewards its holders with 1% BUSD on every transaction.`
         },
         {
             numbers: '02',
-            title: 'How do i get NFTs?',
-            content: `As a creative agency we work with you to develop solutions to address your brand needs. That includes various aspects of brand planning and strategy, marketing and design.`
+            title: 'How does ChangPEPE Zhaoge reward its holders?',
+            content: ` As a token holder of ChangPEPE Zhaoge, you will receive 1% of the transaction value in BUSD directly to your wallet with every transaction that occurs. The more ChangPEPE Zhaoge tokens you hold, the more BUSD rewards you will earn.`
         },
         {
             numbers: '03',
-            title: 'How can we buy your NFTs?',
-            content: `As a creative agency we work with you to develop solutions to address your brand needs. That includes various aspects of brand planning and strategy, marketing and design.`
+            title: 'How can I purchase ChangPEPE Zhaoge?',
+            content: `To purchase ChangPEPE Zhaoge, you can visit the official website and follow the instructions provided. Make sure you have a compatible BSC wallet and sufficient BNB to complete the transaction.`
         },
         {
             numbers: '04',
-            title: 'Who are the team behind the project?',
-            content: `As a creative agency we work with you to develop solutions to address your brand needs. That includes various aspects of brand planning and strategy, marketing and design.`
+            title: 'Is ChangPEPE Zhaoge a safe investment?',
+            content: `Investing in meme coins, including ChangPEPE Zhaoge, carries risks. It's important to conduct thorough research, assess the project's fundamentals, and make informed decisions based on your risk tolerance. Always exercise caution and never invest more than you can afford to lose.`
+        },
+        {
+            numbers: '05',
+            title: 'Can I earn passive income with ChangPEPE Zhaoge?',
+            content: `Yes! By holding ChangPEPE Zhaoge tokens, you automatically earn BUSD rewards with every transaction. The more actively you participate and hold the tokens, the more rewards you can accumulate over time.`
+        },
+        {
+            numbers: '06',
+            title: 'Are there any future developments planned for ChangPEPE Zhaoge?',
+            content: `Yes, the team behind ChangPEPE Zhaoge is dedicated to continuous improvement and growth. They are actively working on new developments, partnerships, and community initiatives to enhance the project's value and bring more exciting features to its holders.`
+        },
+        {
+            numbers: '07',
+            title: 'Where can I find more information about ChangPEPE Zhaoge?',
+            content: `For more information about ChangPEPE Zhaoge, you can visit the official website, join the official social media channels, and engage with the community. Stay updated on the latest news, announcements, and discussions related to ChangPEPE Zhaoge.`
         }
     ];
 
@@ -51,28 +66,32 @@ export default function Home() {
 
             {/* top section */}
 
+            <div className='py-4 text-center bg-yellow-100 lg:text-base text-sm'>
+                0xefd73880Ba845815bdBAD75D1dEF3F6a5087dDbe
+            </div>
+
             <div className="lg:px-20 px-5 bg-black-100">
                 <div className='container mx-auto'>
 
                     <Menu />
                     <div className="lg:flex block justify-between items-center gap-x-12 pt-12">
                         <div data-aos="fade-right" className="lg:w-1/2 w-full">
-                            <h2 className='md:text-5xl text-3xl font-opensans font-bold text-white-100'>
-                                Norem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </h2>
+                            <h1 className='md:text-5xl text-3xl font-opensans font-bold text-white-100'>
+                                Introducing ChangPEPE Zhaoge: The Ultimate Meme Coin on BSC
+                            </h1>
 
                             <p className='py-8 text-white-50 font-inter'>
-                                Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                Are you ready to embark on a thrilling crypto adventure inspired by the legendary CZ Binance and the PEPE hype? Look no further than ChangPEPE Zhaoge, the hottest meme coin to hit the Binance Smart Chain (BSC)!
                             </p>
 
                             <div className="flex items-center gap-8 font-opensans text-white-100">
-                                <a href="/">
+                                <a href="https://poocoin.app/tokens/0xefd73880ba845815bdbad75d1def3f6a5087ddbe">
                                     <button className=" bg-black-100 py-3 md:px-8 px-3 font-medium border-2 border-yellow-100 rounded-full hover:bg-yellow-100">
                                         View Chart
                                     </button>
                                 </a>
 
-                                <a href="/">
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0xefd73880Ba845815bdBAD75D1dEF3F6a5087dDbe">
                                     <button className="bg-yellow-100 rounded-full font-medium border-2 border-yellow-100 hover:bg-black-100 py-3 md:px-8 px-3">
                                         Buy Now
                                     </button>
@@ -107,8 +126,12 @@ export default function Home() {
                                 About Us
                             </h2>
 
-                            <p className='pt-6 pb-4 font-semibold lg:leading-loose'>
-                                Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+                            <p className='py-6 font-semibold lg:leading-loose'>
+                                ChangPEPE Zhaoge is not your average meme coin. It's a revolutionary token that brings together the best of two worlds: the influence of CZ Binance and the frenzy of the PEPE phenomenon. By combining these elements, we've created an exhilarating experience for crypto enthusiasts and meme lovers alike.
+                            </p>
+
+                            <p className='font-semibold lg:leading-loose'>
+                                But that's not all! As a token holder of ChangPEPE Zhaoge, you'll be rewarded generously. With every transaction that takes place, 1% of the transaction value will be distributed in BUSD directly to our loyal holders. This means that the more you hold, the more BUSD you earn!
                             </p>
 
                         </div>
@@ -159,7 +182,7 @@ export default function Home() {
                             </h2>
 
                             <p className='text-black-50 font-semibold lg:leading-loose'>
-                                Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget
+                                Our Text to NFT AI Bot is an innovative tool designed to transform your written words into unique and collectible NFTs (Non-Fungible Tokens). It brings together the power of artificial intelligence and blockchain technology to create a seamless and exciting experience for content creators, artists, and enthusiasts.
                             </p>
                         </div>
 
@@ -173,7 +196,7 @@ export default function Home() {
                             </h2>
 
                             <p className='text-black-50 font-semibold lg:leading-loose'>
-                                Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget
+                                At PEPE Zhaoge, we believe in rewarding our community for their participation and support. That's why our Text to NFT AI Bot offers a unique opportunity to earn 1% BUSD rewards on every transaction.
                             </p>
                         </div>
 
@@ -274,11 +297,14 @@ export default function Home() {
                         <div data-aos="slide-left" className="lg:w-1/2 w-full">
 
                             <h2 className='md:text-5xl text-3xl font-opensans font-bold'>
-                                Our Motive
+                                Why choose ChangPEPE Zhaoge?
                             </h2>
 
                             <p className='pt-6 pb-4 text-white-200 font-opensans font-semibold lg:leading-loose'>
-                                Borem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                Inspired by CZ Binance and the PEPE hype
+                                Unleash your inner meme enthusiast
+                                Earn 1% BUSD rewards on every transaction
+                                Ride the wave of excitement on the Binance Smart Chain
                             </p>
 
                             <a href="/">

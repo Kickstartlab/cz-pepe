@@ -25,9 +25,9 @@ export default function Menu() {
           </ul>
         </nav>
 
-        <a href="/">
+        <a href="https://t.me/Changpepezhaoge">
           <button className="bg-yellow-100 rounded-xl font-medium border-2 border-yellow-100 hover:bg-black-100 py-3 md:px-8 px-3">
-            Buy Now
+            Join Us
           </button>
         </a>
       </div>

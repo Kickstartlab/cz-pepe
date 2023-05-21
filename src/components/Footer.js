@@ -25,17 +25,17 @@ export default function Footer() {
 
           <div className='text-center lg:w-1/2 flex mx-auto'>
             <p>
-              Don’t hesitate to subscribe to latest news about ICo markets as well as crucial financial knowledge to become successful investors globally
+              Join us today and start earning 1% BUSD rewards with our Text to NFT AI Bot. Together, let's embrace the power of rewards and build a thriving community around our shared passion for digital art and innovation.
             </p>
           </div>
 
           <div className='flex justify-center gap-6 items-center lg:mt-0 mt-5'>
 
-            <a href='https://twitter.com/Decprotocol'>
+            <a href='/'>
               <img src={twitter} alt="Twitter" className='' />
             </a>
 
-            <a href='https://t.me/decentraprotocol_arb'>
+            <a href='https://t.me/Changpepezhaoge'>
               <img src={telegram} alt="Facebook" className='' />
             </a>
 
