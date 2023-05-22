@@ -206,11 +206,39 @@ export default function Home() {
 
             {/* TOKENOMICS */}
 
-            <div id='tokenomics' className="lg:px-20 px-5 pt-8">
+            <div id='tokenomics' className="lg:px-20 px-5 pt-6">
                 <div className='container mx-auto'>
 
+                    <div className='lg:mb-24 mb-12'>
+
+                        <div className='bg-green-100 rounded-3xl lg:w-10/12 lg:mx-20 rotate-3 h-56 -z-10 absolute lg:block hidden'>
+
+                        </div>
+
+                        <div className='bg-yellow-100 rounded-3xl py-8 lg:w-11/12 lg:mx-20 z-20'>
+
+                            <h2 data-aos="fade-up" className='md:text-4xl text-white-100 text-2xl font-opensans font-bold text-center lg:mb-6 mt-8'>
+                                TOKENOMICS
+                            </h2>
+
+                            <div className='lg:flex items-center justify-center gap-x-44 text-white-100'>
+                                <p data-aos="fade-right" className='md:text-4xl text-2xl font-opensans font-bold text-center lg:mb-6 mt-8'>
+                                    3% MW
+                                </p>
+
+                                <p data-aos="fade-up" className='md:text-4xl text-2xl font-opensans font-bold text-center lg:mb-6 mt-8'>
+                                    1%LP
+                                </p>
+
+                                <p data-aos="fade-left" className='md:text-4xl text-2xl font-opensans font-bold text-center lg:mb-6 mt-8'>
+                                    1%BUSD
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <h2 data-aos="fade-up" className='md:text-5xl text-2xl font-opensans font-bold text-center lg:mb-6'>
-                        TOKENOMICS
+                        TOKEN ALLOCATION
                     </h2>
 
                     <div className="py-12 space-y-8 flex items-center justify-center">
@@ -289,7 +317,7 @@ export default function Home() {
 
             </div>
 
-            <Footer/>
+            <Footer />
         </div>
     )
 }

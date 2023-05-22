@@ -20,8 +20,8 @@ module.exports = {
         "100": "#fff",
         "200": "#A4A7B4"
       },
-      pink: {
-        "100": "#D842A5",
+      green: {
+        "100": "#74A931",
       },
     },
     fontFamily: {
